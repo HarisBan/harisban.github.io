@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>锐捷产品常用指令</title>
+      <link href="/2022/09/13/%E9%94%90%E6%8D%B7%E4%BA%A7%E5%93%81%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/"/>
+      <url>/2022/09/13/%E9%94%90%E6%8D%B7%E4%BA%A7%E5%93%81%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/</url>
+      
+        <content type="html"><![CDATA[<h2 id="一、锐捷产品常用指令"><a href="#一、锐捷产品常用指令" class="headerlink" title="一、锐捷产品常用指令"></a>一、锐捷产品常用指令</h2><br><h3 id="1-命令模式及切换"><a href="#1-命令模式及切换" class="headerlink" title="1.命令模式及切换"></a>1.命令模式及切换</h3><hr><table><thead><tr><th align="center">模式</th><th align="left">切换</th><th align="left">提示符</th><th align="center">简要描述</th></tr></thead><tbody><tr><td align="center">用户<br>模式</td><td align="left">enable -&gt; 特权模式(可能需要密码）<br>exit -&gt; 离开</td><td align="left"><code>Ruijie&gt;</code></td><td align="center">用来进行基本测试、显示系统信息</td></tr><tr><td align="center">特权<br>模式</td><td align="left">disable -&gt; 返回用户模式<br>configure -&gt; 全局配置模式</td><td align="left"><code>Ruijie#</code></td><td align="center">验证结果、具有口令保护（?保护啥,不理解）</td></tr><tr><td align="center">全局<br>配置</td><td align="left">exit、end、Ctrl+C -&gt; 返回特权模式<br> interface -&gt; 进入接口配置模式（需要指明具体哪一个接口)<br> vlan <em>vlan_id</em> -&gt; VLAN配置模式</td><td align="left"><code>Ruijie(config)#</code></td><td align="center">配置全局参数</td></tr><tr><td align="center">接口<br>配置</td><td align="left">end、Ctrl+C -&gt; 特权模式<br> exit -&gt; 返回全局配置模式</td><td align="left"><code>Ruijie(config-if)#</code></td><td align="center">配置具体的接口</td></tr><tr><td align="center">VLAN<br>配置</td><td align="left">end、Ctrl+C -&gt; 特权模式<br> exit -&gt; 返回全局配置模式</td><td align="left"><code>Ruijie(config-vlan)#</code></td><td align="center">配置Vlan的参数</td></tr></tbody></table><p>各个模式间的转换示意图如下所示：</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 网络运维 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>网络管理专题培训-20220909</title>
       <link href="/2022/09/09/%E7%BD%91%E7%BB%9C%E7%AE%A1%E7%90%86%E4%B8%93%E9%A2%98%E5%9F%B9%E8%AE%AD-20220909/"/>
       <url>/2022/09/09/%E7%BD%91%E7%BB%9C%E7%AE%A1%E7%90%86%E4%B8%93%E9%A2%98%E5%9F%B9%E8%AE%AD-20220909/</url>
