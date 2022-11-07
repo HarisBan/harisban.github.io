@@ -24,6 +24,7 @@ Linux 常用指令
 <h3 id="开启-关闭-hyper-v"><a href="#开启-关闭-hyper-v" class="headerlink" title="开启/关闭 hyper-v"></a>开启/关闭 hyper-v</h3><hr>
 <p>vmbox虚拟机需要关闭hyper-v（否则ensp模拟软件无法正常启动），但微软自带的WSL2（即linux子系统启动需要开启hyper-v）</p>
 <pre><code>管理员身份打开powershell
+    查看 hyper-v状态： systeminfo
     开启： bcdedit / set hypervisorlaunchtype auto
     关闭： bcdedit / set hypervisorlaunchtype off
     // 注： 开启/关闭后需要重启计算机
